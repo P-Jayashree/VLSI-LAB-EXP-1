@@ -41,7 +41,7 @@ Full Subtractor:
 
 VERILOG CODE:
 
-Full Adder:
+# Full Adder:
 ```
 module fulladder (sum, cout, a,b,c);
 input a,b,c;
@@ -55,7 +55,7 @@ and a3(w4,a,c);
 or o1(w5,w2,w3); or o2(cout,w5,w4);
 endmodule
 ```
-Full Subractor:
+# Full Subractor:
 ```
 module full_subtractor(a, b, c,D, Bout);
 input a, b, c;
@@ -64,7 +64,7 @@ assign D = a^b^c;
 assign Bout = (~a & b) | (~(a^ b) & c);
 endmodule
 ```
-Half Adder:
+# Half Adder:
 ```
 module half_adder(a,b,sum,carry);
 input a,b;
@@ -73,7 +73,7 @@ or(sum,a,b);
 and(carry,a,b);
 endmodule
 ```
-Half Subractor:
+# Half Subractor:
 ```
 module half_subtractor(D,Bo,A,B);
 input A,B;
@@ -82,7 +82,7 @@ assign D=A^B;
 assign Bo=(~A)&B;
 endmodule
 ```
-Logic Gates:
+# Logic Gates:
 ```
 module logicgates(a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
 input a,b;
@@ -96,7 +96,7 @@ xnor(xnorgate,a,b);
 not(notgate,a);
 endmodule
 ```
-Ripple Carry Adder 4Bit:
+# Ripple Carry Adder 4Bit:
 ```
 module rippe_adder(S, Cout, X, Y,Cin);
  input [3:0] X, Y;// Two 4-bit inputs
@@ -119,7 +119,7 @@ module fulladder(S, Co, X, Y, Ci);
   or G5(Co, w2, w3);
 endmodule
 ```
-Ripple Carry Adder 8bit
+# Ripple Carry Adder 8bit
 ```
 module fulladder(a,b,c,sum,carry);
 input a,b,c;
@@ -132,21 +132,22 @@ and(w3,a,b);
 or(carry,w2,w3);
 endmodule
 ```
-
-
 OUTPUT:
-Full Adder
+# Full Adder
 ![image](https://github.com/P-Jayashree/VLSI-LAB-EXP-1/assets/161108372/657722a1-4fb9-4511-81c3-91b8b34f0806)
-Full Subractor
+# Full Subractor
 ![image](https://github.com/P-Jayashree/VLSI-LAB-EXP-1/assets/161108372/319f0d1b-21bd-4962-8cbe-291c29a9ae8b)
-Half Adder
+# Half Adder
 ![image](https://github.com/P-Jayashree/VLSI-LAB-EXP-1/assets/161108372/5440d274-0bcf-4a6d-86a5-d63741ae3b66)
-
-
-
-
-
------Place a Waveform Generated from Xilinx ISE
-
+# Half Subractor
+![image](https://github.com/P-Jayashree/VLSI-LAB-EXP-1/assets/161108372/bbacedf9-c95e-4e3e-bee8-b8974c1bfbef)
+# Logic Gates
+![image](https://github.com/P-Jayashree/VLSI-LAB-EXP-1/assets/161108372/f08f2d79-b13e-4c8f-8591-3a6f732d4e4a)
+# Ripple Carry Adder 4bit
+![image](https://github.com/P-Jayashree/VLSI-LAB-EXP-1/assets/161108372/2fb669a9-27bd-4024-9e5e-22a681b06678)
+# Ripple Carry Adder 8bit
+![image](https://github.com/P-Jayashree/VLSI-LAB-EXP-1/assets/161108372/e93fd4be-cfca-46a6-bdf6-2a4dd21decd5)
 RESULT:
+Thus To simulate and synthesis Logic Gates,Adders and Subtractor using Xilinx ISE has been verified.
+
 
