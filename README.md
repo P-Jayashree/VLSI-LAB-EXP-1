@@ -135,6 +135,16 @@ endmodule
 
 
 OUTPUT:
+Full Adder
+![image](https://github.com/P-Jayashree/VLSI-LAB-EXP-1/assets/161108372/657722a1-4fb9-4511-81c3-91b8b34f0806)
+Full Subractor
+![image](https://github.com/P-Jayashree/VLSI-LAB-EXP-1/assets/161108372/319f0d1b-21bd-4962-8cbe-291c29a9ae8b)
+Half Adder
+![image](https://github.com/P-Jayashree/VLSI-LAB-EXP-1/assets/161108372/5440d274-0bcf-4a6d-86a5-d63741ae3b66)
+
+
+
+
 
 -----Place a Waveform Generated from Xilinx ISE
 
